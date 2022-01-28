@@ -1,0 +1,125 @@
+*{
+margin: 4px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+ background-image: url("carton.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+}
+div.container{
+    margin-top:8px;
+text-align: center;
+box-shadow: 1px 2px 2px 2px dodgerblue;
+margin: auto;
+margin-left: 1px;
+margin-right: 1px;
+border-radius: 4px;
+height: 360px;
+background-color: aliceblue;
+opacity: 90%;
+}
+h3{
+    padding-top: 6px;
+    border-bottom: 2px solid rgb(238, 53, 161);
+    width: 60px;
+    margin-left: 14px;
+    font-size: 18px;
+ 
+}
+
+input[type=text]{
+    border:1px solid rgb(238, 53, 161);
+    border-radius: 12px;
+    width: 200px;
+    padding: 2px;
+}
+
+input[type=text]:hover{
+    background-color: beige;
+}
+
+p{
+   margin-right: 140px; 
+   font-size: 14px;
+   padding-top: 8px;
+   padding-bottom: 4px;
+}
+
+input[type=radio]{
+    margin-left:-60px ;
+
+}
+.nav{
+   margin-right:50px ;
+   padding-top: 2px;
+   height: 8px;
+
+}
+ 
+span{
+    font-size: 12px;
+}
+button[type=button]{
+    padding:0px 75px;
+    border-radius:12px ;
+    border-style: hidden;
+    background-color: rgb(238, 53, 161) ;
+    box-shadow: 2px 1px 1px  rgb(238, 53, 161) ;
+    border: 1px solid  rgb(238, 53, 161);
+    color: aliceblue;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button[type=button]:active{
+    box-shadow: 2px 1px 1px  dodgerblue ;
+background-color:dodgerblue;
+border: 1px solid dodgerblue;
+}
+
+
+p.account{
+    font-size: 12px;
+    margin-left: 26px;
+    width: 220px;
+}
+
+a{
+    color:rgb(238, 53, 161);
+    text-decoration:underline;
+
+}
+
+a:active{
+    color:dodgerblue ;
+}
+
+p.login{
+width: 200px;
+    margin-left: 32px;
+    font-size: 13px;
+  
+}
+
+.insta{
+    margin-bottom: 0px;
+    height:35px;
+
+}
+img.up{
+width: 28px;
+
+}
+img.up:active{
+    border:1px solid dodgerblue;
+    border-radius:12px;
+}
+
+.insta:active{
+    border:1px solid dodgerblue;
+    border-radius:12px;
+}
+
